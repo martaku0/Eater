@@ -16,6 +16,9 @@
 # Visual Studio cache directory
 .vs/
 
+# exporting files APK
+/exporting/
+
 # Gradle cache directory
 .gradle/
 

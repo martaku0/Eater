@@ -7,15 +7,15 @@ using UnityEngine.UI;
 public class Vouncher : MonoBehaviour
 {
     public Text menuText;
-    string[] descriptions = {"\n20 buziaków",
-    "\nmizianko",
-    "\njedzonko\n(zrobione przeze mnie)",
-    "\nkoniec kłótni\n(w dowolnym momencie)",
-    "\nrandkę\n(Ty wybierasz gdzie)",
-    "\ndzień bez mówienia nie",
-    "\nrandkę\n(ja wybieram gdzie)",
-    "\ncały dzień po Twojemu",
-    "\nanal\n(Daria to wymyśliła XD)"};
+    string[] descriptions = {"\ndescription",
+    "\ndescription",
+    "\ndescription",
+    "\ndescription",
+    "\ndescription",
+    "\ndescription",
+    "\ndescription",
+    "\ndescription",
+    "\ndescription"};
 
     int number;
 

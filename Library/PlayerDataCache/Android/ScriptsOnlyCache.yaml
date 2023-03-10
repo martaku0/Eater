@@ -720,4 +720,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/Intro.unity
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/marta/unity/Eater/exporting/Eater1.2.apk
+  playerPath: C:/Users/marta/unity/Eater/exporting/EaterPublicVersion.apk
