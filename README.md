@@ -93,9 +93,3 @@ Podstawowa wersja zrobiona wraz z poradnikiem z [internetu](https://youtu.be/t-r
 
 ### **1.2**
 - Naprawa działania muzyki
-### **Plany:**
-1. powiadomienia o osiągnięciu?
-1. animacje?
-1. pojedyncze dźwięki?
-1. (moze) poprawic ostatni zdobyty wynik po wyjsciu z gry
-1. muzyka przycisk
