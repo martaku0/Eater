@@ -1,5 +1,5 @@
 ﻿### **0.1**
-Podstawowa wersja *ukradnięta* z [neta](https://youtu.be/t-rdSI3-Hfk). Po zebraniu pięciu niebieskich napis *LEVEL COMPLETED*, po uderzeniu w czarne gra rozpoczyna się od nowa.
+Podstawowa wersja zrobiona wraz z poradnikiem z [internetu](https://youtu.be/t-rdSI3-Hfk). Po zebraniu pięciu niebieskich napis *LEVEL COMPLETED*, po uderzeniu w czarne gra rozpoczyna się od nowa.
 
 ### **0.2**
 - Gra się nie kończy
