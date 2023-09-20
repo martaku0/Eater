@@ -1,95 +1,100 @@
-﻿### **0.1**
-Podstawowa wersja zrobiona wraz z poradnikiem z [internetu](https://youtu.be/t-rdSI3-Hfk). Po zebraniu pięciu niebieskich napis *LEVEL COMPLETED*, po uderzeniu w czarne gra rozpoczyna się od nowa.
+# **General information**
+The game was made using Unity. It was a Valentine's Day gift.\
+**Unity version:** 2019.4.20f1\
+**To play the game:** Download file [EaterPublicVersion.apk](https://github.com/martaku0/Eater/blob/main/EaterPublicVersion.apk) on your mobile device and run it.
+ 
+ # **Updates**
+ ### **0.1**
+The basic version was made with a [tutorial](https://youtu.be/t-rdSI3-Hfk) from YouTube. After collecting five blue dots, the words *LEVEL COMPLETED* are written, and after hitting the black ones, the game starts again.
 
 ### **0.2**
-- Gra się nie kończy
-- Licznik na środku
-- Po uderzeniu w ścianę od nowa
+- The game doesn't end
+- Counter position is in the middle
+- After hitting the wall, the game starts again
 - *“Click to start”*
-- Niebieskie i czarne są tworzone w losowych miejscach
-- Po zebraniu niebieskiego pojawia się nowy
-- Co 10 punktów pojawia się nowy czarny
-- a la *responsywność* ekranu
-- Zablokowany *PORTRAIT MODE*
+- Blue and black dots appear in random places
+- When you collect a blue dot, a new one appears
+- Every 10 points a new black dot appears
+- A la *screen responsiveness*
+- Locked *PORTRAIT MODE*
 
 ### **0.3**
-- Usunięte ściany
-- Gra wyświetla się na pełnym ekranie
-- *Responsywność*
-- Po uderzeniu w krawędź gra rozpoczyna się od nowa
-- Prędkość gracza zmniejszona z 2 do 1.5
+- Removed walls
+- The game is displayed in full-screen mode
+- *Responsiveness*
+- After hitting the edge, the game starts again
+- Player speed reduced from 2 to 1.5
 
 ### **0.3.1**
-- Zabezpieczenie przed pojawianiem się obiektów w tych samych miejscach (gdy obiektów jest zbyt dużo ta zasada jest *naginana*)
-- Zwiększenie liczby niebieskich z 5 do 10
-- Zwiększenie początkowej liczby czarnych z 4 do 6
+- Objects can not appear in the same places (until there are too many objects)
+- Increased the number of blue dots from 5 to 10
+- Increased the number of black dots at the beginning from 4 to 6
 
 ### **0.4**
-- Poruszanie się czarnych, odbijanie od innych obiektów
-- Zapisywanie i wyświetlanie highscore
-- Przycisk pauzy
-- “*Click to start*” działa dopiero po puszczeniu przycisku
+- Black dots move and bounce off other objects
+- Added high score
+- Added pause button
+- “*Click to start*” button operation improved
 
 ### **0.4.1**
-- Zmniejszona ilość początkowych czarnych do 2
-- Poprawione *odbijanie*
-- Poprawione “*Click to start*”
-- Kolejny czarny pojawia się co 2
-- Zmniejszona ilość niebieskich do 5
+- Reduced number of black dots at the beginning to 2
+- Improved *bounce*
+- Improved “*Click to start*”
+- Another black dot appears every 2
+- Reduced the number of blue dots to 5
 
 ### **0.5**
-- Double-click sprint na 1,5sek, po tym 3sek przerwy
+- Added speed acceleration on double-click
 
 ### **0.5.1**
-- Double-click sprint usunięty
-- Kolejny czarny pojawia się co 5 (zamiast co 2)
-- Dodane osiągnięcia
-- Po odblokowaniu osiągnięcia (co 10) znika ono w menu
+- Removed speed acceleration on double-click
+- Another black dot appears every 5 (instead of every 2)
+- Added achievements
 
 ### **0.6**
-- Poprawione odbijanie czarnych od niebieskich
-- Ekran tytułowy
+- Improved bouncing of black and blue dots
+- Title screen
 
 ### **0.6.1**
-- Zmiana nazwy z *“Eater”* na *“Heart Eater”*
-- Dodanie podstawowego wyglądu
-- Zmiana ikony
-- Poprawa colliderów
+- Name change from *“Eater”* to *“Heart Eater”*
+- Added a basic appearance for components
+- Change icon
+- Improved colliders
 
 ### **0.7**
-- Po zpausowaniu gry przycisk pause się zmienia
-- Po wyjściu z gry gra zostaje zpausowana
-- Kolejny fck pojawia się co 10 (zamiast co 5)
-- Naprawa skręcania gracza (po zderzeniu z sercem)
+- After pausing the game, the pause button icon changes
+- After leaving the game, the game is paused
+- Another *fck* appears every 10 (instead of every 5)
+- Player movement fixed (after collision with heart)
 
 ### **0.7.1**
-- Zmiana koloru osiągnięć w menu po odblokowaniu
-- Po kliknięciu odblokowanego osiągnięcia napis *“Click to start”* zmienia się na opis
-- Po kliknięciu na nieodblokowane napis spowrotem brzmi *“Click to start”*
-- Dedykacja oraz autor na ekranie tytułowym
+- Change the colour of achievement in the menu after unlocking one
+- After clicking on an unlocked achievement, the inscription *“Click to start”* changes to a description of this achievement
+- After clicking on the unlocked ones, the text returns *"Click to start"*
+- Dedication and author on the title screen
 
 ### **0.8**
-- Kolejny fck pojawia się co 7 (zamiast co 10)
-- Pokazanie w menu ostatniego wyniku
-- Włączone kupony personalizowane
-- Użycie kuponu na *triple-click*
+- Another *fck* appears every 7 (instead of every 10)
+- Showing the last score in the menu
+- Personalized 'coupons' enabled
+- Use 'coupon' on *triple-click*
 
 ### **0.8.1**
-- Aby rozpocząć grę należy spędzić co najmniej sekundę w menu (zabezpieczenie przed przypadkowym włączeniem tuż po przegranej)
-- Kolejny fck pojawia się co 5 (zamiast co 7)
+- To start the game, you must spend at least a second in the menu (protection against accidental activation right after losing)
+- Another *fck* appears every 5 (instead of every 7)
 
 ### **0.9**
-- Możliwość zmiany motywu na zdjęcia zamiast gracza, serc i fcków
-- Muzyka w tle (różny dla *menu* oraz *gry*)
-- Możliwość wyłączenia dźwięków
-- Wyłącznie dźwięku razem z pauzą
+- Possibility to change the theme to photos instead of the player, hearts and *fcks*
+- Background music (different for *menu* and *game*)
+- Possibility to turn off sounds
+- When paused the sound is muted
 
 ### **1.0**
-- Usunięty przycisk do sterowania muzyką
+- Removed music control button
 
 ### **1.1**
-- Dodany przycisk do sterowania muzyką w menu
-- Poprawa działania motywu
+- Added a music control button in the menu
+- Improved themes
 
 ### **1.2**
-- Naprawa działania muzyki
+- Fixed music behavior
